@@ -36,7 +36,8 @@ public class ImageEndpoint {
     public void OnError(Session session, Throwable throwable) {
         throwable.printStackTrace();
     }
-
+//ok
+   
     @OnMessage
     public void OnMessage(Session session, String message) {
         if (message.contains("0")) {
